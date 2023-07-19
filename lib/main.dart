@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const MainApp());
@@ -13,7 +14,7 @@ class MainApp extends StatelessWidget {
       title: 'ToDo list',
       theme: ThemeData(
         scaffoldBackgroundColor: const Color.fromARGB(255, 32, 52, 76),
-        fontFamily: 'Comfortaa',
+        textTheme: GoogleFonts.comfortaaTextTheme(),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: Scaffold(
